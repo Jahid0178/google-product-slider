@@ -67,6 +67,7 @@ img {
 }
 
 .card-content-container p {
+  font-size: 0.8rem;
   margin-bottom: 0.5rem;
 }
 
@@ -96,5 +97,18 @@ img {
 @media screen and (max-width: 768px) {
   .card-container {
     grid-template-columns: 1fr;
+  }
+  .image-slider-container {
+    flex: 2.5;
+  }
+  .card-body-container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .card-content-container {
+    width: 250px;
+  }
+  .btn-grp {
+    display: none;
   }
 }
